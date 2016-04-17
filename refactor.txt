@@ -1,0 +1,16 @@
+Yipeng Song
+Assignmet 1 for CS362
+
+Functions that refactored from switch cases in cardEffect():
+   -case_adventure
+   -case_remodel
+   -case_baron
+   -case_great_hall
+   -case_ambassador
+Each represent for an action card
+
+Redefine and initialize local variables if necessary
+
+These functions all take gameState structure, choices (if necessary), and hand position (if necessary) for the parameters. 
+
+
