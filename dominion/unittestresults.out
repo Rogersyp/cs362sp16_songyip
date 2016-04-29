@@ -1,0 +1,272 @@
+Starting game.
+UNITTEST 1 PASSED!
+GCOV AFTER UNITTEST 1
+File 'dominion.c'
+Lines executed:19.96% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Checking player 0's hand for number of cards...
+Total coins should be 14
+UNITTEST 2 PASSED!
+GCOV AFTER UNITTEST 2
+File 'dominion.c'
+Lines executed:21.02% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Checking player 0's hand for number of cards...
+UNITTEST 3 PASSED!
+GCOV AFTER UNITTEST 3
+File 'dominion.c'
+Lines executed:21.02% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+ Curse PASSED!
+ Estate PASSED!
+ Duchy PASSED!
+ Province PASSED!
+ Copper PASSED!
+ Silver PASSED!
+ Gold PASSED!
+ Adventure PASSED
+ Council_room PASSD!
+ Feast PASSED!
+ Gardens PASSED
+ Mine PASSED!
+ Remodel PASSED!
+ Smithy PASSED!
+ Village PASSED!
+ Baron PASSED!
+ Great_hall PASSED!
+ Minion PASSED!
+ Steward PASSED!
+ Tribute PASSED!
+ Ambassador PASSED!
+ Cutpurse PASSED!
+ Embargo PASSED!
+ Outpost PASSED!
+ Salvager PASSED!
+ Sea_hag PASSED!
+ Treasure_map PASSED!
+UNITTEST 4 PASSED!!
+GCOV AFTER UNITTEST 4
+File 'dominion.c'
+Lines executed:25.62% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing treasure_map...
+2 treasure_maps. Status must be 1, count must be 3
+3
+1 treasure_map. Status must be -1, count must be 5
+5
+CARDTEST 1 PASSED!
+GCOV AFTER CARDTEST 1 
+File 'dominion.c'
+Lines executed:31.10% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing salvager...
+CARDTEST 2 PASSED!
+GCOV AFTER CARDTEST 2
+File 'dominion.c'
+Lines executed:32.16% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing great hall...
+CARDTEST 3 PASSED!
+GCOV AFTER CARDTEST 3
+File 'dominion.c'
+Lines executed:33.39% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing outpost...
+CARDTEST 4 PASSED!
+GCOV AFTER CARDTEST 4
+File 'dominion.c'
+Lines executed:33.92% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+0: bought silver
+0: end turn
+Player 0: 3
+Player 1: 2
+1: bought silver
+1: endTurn
+Player 0: 4
+Player 1: 3
+0: bought smithy
+0: end turn
+Player 0: 4
+Player 1: 4
+1: bought silver
+1: endTurn
+Player 0: 2
+Player 1: 4
+0: bought silver
+0: end turn
+Player 0: 2
+Player 1: 1
+1: bought silver
+1: endTurn
+Player 0: 3
+Player 1: 3
+0: smithy played from position 3
+smithy played.
+0: bought gold
+0: end turn
+Player 0: 4
+Player 1: 5
+1: bought silver
+1: endTurn
+Player 0: 6
+Player 1: 6
+0: bought smithy
+0: end turn
+Player 0: 6
+Player 1: 1
+1: bought adventurer
+1: endTurn
+Player 0: 0
+Player 1: 2
+0: smithy played from position 0
+smithy played.
+0: bought province
+0: end turn
+Player 0: 10
+Player 1: 4
+1: bought silver
+1: endTurn
+Player 0: 11
+Player 1: 6
+0: bought silver
+0: end turn
+Player 0: 11
+Player 1: 1
+1: bought silver
+1: endTurn
+Player 0: 2
+Player 1: 2
+0: bought silver
+0: end turn
+Player 0: 2
+Player 1: 3
+1: bought adventurer
+1: endTurn
+Player 0: 9
+Player 1: 5
+0: bought silver
+0: end turn
+Player 0: 16
+Player 1: 6
+1: adventurer played from position 1
+1: bought gold
+1: endTurn
+Player 0: 16
+Player 1: 2
+0: bought gold
+0: end turn
+Player 0: 13
+Player 1: 3
+1: adventurer played from position 1
+1: bought gold
+1: endTurn
+Player 0: 6
+Player 1: 0
+0: bought gold
+0: end turn
+Player 0: 7
+Player 1: 2
+1: bought silver
+1: endTurn
+Player 0: 8
+Player 1: 2
+0: bought gold
+0: end turn
+Player 0: 10
+Player 1: 2
+1: adventurer played from position 1
+1: bought province
+1: endTurn
+Player 0: 12
+Player 1: 9
+0: bought gold
+0: end turn
+Player 0: 18
+Player 1: 9
+1: adventurer played from position 2
+1: bought province
+1: endTurn
+Player 0: 1
+Player 1: 10
+0: bought gold
+0: end turn
+Player 0: 1
+Player 1: 7
+1: bought silver
+1: endTurn
+Player 0: 8
+Player 1: 13
+0: bought silver
+0: end turn
+Player 0: 9
+Player 1: 14
+1: adventurer played from position 3
+1: bought gold
+1: endTurn
+Player 0: 10
+Player 1: 14
+0: bought province
+0: end turn
+Player 0: 24
+Player 1: 14
+1: bought province
+1: endTurn
+Player 0: 24
+Player 1: 28
+0: bought province
+0: end turn
+Player 0: 24
+Player 1: 7
+1: bought gold
+1: endTurn
+Player 0: 1
+Player 1: 13
+0: bought silver
+0: end turn
+Player 0: 13
+Player 1: 19
+1: bought gold
+1: endTurn
+Player 0: 19
+Player 1: 20
+0: bought province
+0: end turn
+Player 0: 26
+Player 1: 21
+1: bought gold
+1: endTurn
+Player 0: 28
+Player 1: 27
+0: bought gold
+0: end turn
+Player 0: 29
+Player 1: 27
+1: bought province
+1: endTurn
+Player 0: 29
+Player 1: 32
+Finished game.
+Player 0: 29
+Player 1: 32
+GCOV AFTER PLAYING A GAME
+File 'dominion.c'
+Lines executed:52.12% of 566
+Creating 'dominion.c.gcov'
+
