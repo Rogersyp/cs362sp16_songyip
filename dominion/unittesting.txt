@@ -1,0 +1,11 @@
+Assignment 2
+Yipeng Song
+
+Test Report:(after running all 8 tests):
+  File 'dominion.c'
+  Lines executed:33.92% of 566
+
+Testing Effort:
+  Unfortunately, no bugs is found in these 8 unit test cases.
+  However, 34% of code coverage is not too bad considering I am only running 8 unit tests
+  We need more tests to find the bug(s), and random testing is probably a better way!

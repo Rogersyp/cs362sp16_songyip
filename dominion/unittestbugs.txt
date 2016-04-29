@@ -1,0 +1,103 @@
+Assignment 2
+Yipeng Song
+
+
+Bug reports:
+All 8 unit tests passed! No bugs is found.
+
+
+Here is the unittestresults.out:
+
+Starting game.
+UNITTEST 1 PASSED!
+GCOV AFTER UNITTEST 1
+File 'dominion.c'
+Lines executed:19.96% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Checking player 0's hand for number of cards...
+Total coins should be 14
+UNITTEST 2 PASSED!
+GCOV AFTER UNITTEST 2
+File 'dominion.c'
+Lines executed:21.02% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Checking player 0's hand for number of cards...
+UNITTEST 3 PASSED!
+GCOV AFTER UNITTEST 3
+File 'dominion.c'
+Lines executed:21.02% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+ Curse PASSED!
+ Estate PASSED!
+ Duchy PASSED!
+ Province PASSED!
+ Copper PASSED!
+ Silver PASSED!
+ Gold PASSED!
+ Adventure PASSED
+ Council_room PASSD!
+ Feast PASSED!
+ Gardens PASSED
+ Mine PASSED!
+ Remodel PASSED!
+ Smithy PASSED!
+ Village PASSED!
+ Baron PASSED!
+ Great_hall PASSED!
+ Minion PASSED!
+ Steward PASSED!
+ Tribute PASSED!
+ Ambassador PASSED!
+ Cutpurse PASSED!
+ Embargo PASSED!
+ Outpost PASSED!
+ Salvager PASSED!
+ Sea_hag PASSED!
+ Treasure_map PASSED!
+UNITTEST 4 PASSED!!
+GCOV AFTER UNITTEST 4
+File 'dominion.c'
+Lines executed:25.62% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing treasure_map...
+2 treasure_maps. Status must be 1, count must be 3
+3
+1 treasure_map. Status must be -1, count must be 5
+5
+CARDTEST 1 PASSED!
+GCOV AFTER CARDTEST 1 
+File 'dominion.c'
+Lines executed:31.10% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing salvager...
+CARDTEST 2 PASSED!
+GCOV AFTER CARDTEST 2
+File 'dominion.c'
+Lines executed:32.16% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing great hall...
+CARDTEST 3 PASSED!
+GCOV AFTER CARDTEST 3
+File 'dominion.c'
+Lines executed:33.39% of 566
+Creating 'dominion.c.gcov'
+
+Starting game.
+Testing outpost...
+CARDTEST 4 PASSED!
+GCOV AFTER CARDTEST 4
+File 'dominion.c'
+Lines executed:33.92% of 566
+Creating 'dominion.c.gcov'
