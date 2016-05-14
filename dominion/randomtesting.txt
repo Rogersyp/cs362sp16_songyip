@@ -1,0 +1,50 @@
+Assignment 3
+Yipeng Song
+
+I create three random tests for adventurer, great_hall and Smithy.
+Test report is shown as following:
+
+Test for adventurer:
+  Lines executed:100.00% of 18
+  Branches executed:100.00% of 12
+  Taken at least once:100.00% of 12
+  Calls executed:100.00% of 3
+
+Test for Great_hall:
+  Lines executed:100.00% of 6
+  No branches
+  Calls executed:100.00% of 3
+
+The Smithy card is a case in the function cardEffect, so here is the coverage
+before and after testing Smithy:
+
+Before:
+Function 'cardEffect'
+Lines executed:6.10% of 164
+Branches executed:16.79% of 137
+Taken at least once:2.19% of 137
+Calls executed:4.08% of 49
+
+After:
+Function 'cardEffect'
+Lines executed:8.54% of 164
+Branches executed:18.25% of 137
+Taken at least once:4.38% of 137
+Calls executed:8.16% of 49
+
+
+The total coverage for after three test is :
+File 'dominion.c'
+Lines executed:29.33% of 566
+Creating 'dominion.c.gcov'
+
+Comparing with the coverage after unittesting,
+Test Report:(after running all 8 tests):
+  File 'dominion.c'
+  Lines executed:33.92% of 566
+
+the number is very close. I think it's because last time I ran 8 test but this time
+I ran only 3 tests, and the branch executed is 100% for those three tests. Therefore,
+the random test is much more powerful than the unit test.
+
+

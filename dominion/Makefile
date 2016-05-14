@@ -10,6 +10,16 @@ playdom: dominion.o playdom.c
 	gcc -o playdom playdom.c -g dominion.o rngs.o $(CFLAGS)
 
 
+adventurer: randomtestadventurer.c dominion.o
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.o rngs.o $(CFLAGS)
+
+randomtestcard:randomtestcard1.c randomtestcard2.c dominion.o
+	gcc -o randomtestcard1 randomtestcard1.c -g dominion.o rngs.o $(CFLAGS)
+	gcc -o randomtestcard2 randomtestcard2.c -g dominion.o rngs.o $(CFLAGS)
+
+
+
+
 unittest1: unittest1.c dominion.o
 	gcc -o unittest1 unittest1.c -g dominion.o rngs.o $(CFLAGS) 
 
@@ -78,6 +88,33 @@ unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2
 
 
 
+rand:
+	./randomtestadventurer 42 &> randomtestadventurer.out
+	echo "GCOV AFTER 1 TEST adventurer" >> randomtestadventurer.out
+	gcov dominion.c >> randomtestadventurer.out
+	echo "Coverage for each function" >> randomtestadventurer.out
+	gcov -f -b dominion.c >> randomtestadventurer.out
+	cat dominion.c.gcov >> randomtestadventurer.out
+
+
+	./randomtestcard1 42 &> randomtestcard1.out
+	echo "GCOV AFTER 1 TEST card 1" >> randomtestcard1.out
+	gcov dominion.c >> randomtestcard1.out
+	echo "Coverage for each function" >> randomtestcard1.out
+	gcov -f -b dominion.c >> randomtestcard1.out
+	
+
+
+	./randomtestcard2 42 &> randomtestcard2.out
+	echo "GCOV AFTER 1 TEST card 2" >> randomtestcard2.out
+	gcov dominion.c >> randomtestcard2.out
+	echo "Coverage for each function" >> randomtestcard2.out
+	gcov -f -b dominion.c >> randomtestcard2.out
+	
+
+
+
+
 
 interface.o: interface.h interface.c
 	gcc -c interface.c -g  $(CFLAGS)
@@ -88,7 +125,8 @@ player: player.c interface.o
 all: playdom player
 
 clean:
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
+	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard2 randomtestcard1 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
+
 
 
 
