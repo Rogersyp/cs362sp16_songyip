@@ -120,8 +120,6 @@ testdominion: testdominion.c dominion.o rngs.o
 	./testdominion 42 >> testdominion.out
 
 
-testdominion.out: testdominion playdom
-
 testdominion.diff: testdominion.c dominion.o rngs.o
 	gcc -o testdominion -std=c99 testdominion.c dominion.o rngs.o $(CFLAGS)	
 

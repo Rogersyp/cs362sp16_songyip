@@ -1,0 +1,9 @@
+Assignment 4
+Yipeng Song
+05/24/16
+
+
+I need to run several times to get "TEST FAILED". I think that's probably because both dominion files are similar.
+Additionally, it's hard to tell the difference, since it just print out "TEST FAILED"
+
+I am able to get over 80% of the coverage and the classmate I picked is able to reach 65%.
