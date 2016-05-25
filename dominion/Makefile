@@ -114,6 +114,17 @@ rand:
 
 
 
+testdominion: testdominion.c dominion.o rngs.o
+	gcc -o testdominion -std=c99 testdominion.c dominion.o rngs.o $(CFLAGS)	
+	rm -f testdominion.out
+	./testdominion 42 >> testdominion.out
+
+
+testdominion.out: testdominion playdom
+
+testdominion.diff: testdominion.c dominion.o rngs.o
+	gcc -o testdominion -std=c99 testdominion.c dominion.o rngs.o $(CFLAGS)	
+
 
 
 interface.o: interface.h interface.c
@@ -125,7 +136,7 @@ player: player.c interface.o
 all: playdom player
 
 clean:
-	rm -f *.o playdom.exe playdom test.exe test player unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard2 randomtestcard1 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
+	rm -f *.o playdom.exe playdom test.exe test player testdominion unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 randomtestadventurer randomtestcard2 randomtestcard1 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
 
 
 
