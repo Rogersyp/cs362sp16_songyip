@@ -1,5 +1,23 @@
 Debugging
 
 Code Owner: Yipeng Song
+File directory: cs362sp16/songyip
+
+I was going through my dominion code to try and find a bug within my code. I noticed
+that in my adventurer card function, in the second while loop, I am checking if z-1 >= 1, 
+which means if the temp card is 1, it will break the loop and not discard the cards in play 
+that have been drawn. To fix this, the condition should be z-1 >= 0. Line 674
 
 
+
+Agan's Principles that were used:
+
+	-Understand the system: It is imperative to know how the game is played in order to
+	debug, because you need to know how each function should pay in the game.
+	
+	-Make It fail: I was able to use assert statements to make sure the game was 
+	being played correctly when a random tester was run.
+	
+	-Change one thing at a time: At the beginning, I was confusing myself becuase I was trying
+	to change code in multiple files at the same time. This would cause more errors in the 
+	long run and more time to fix the errors that were being made.
