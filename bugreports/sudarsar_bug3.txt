@@ -1,0 +1,9 @@
+Bug: Missing an additional buy in salvager
+
+Test to repeat: dominion/cardtest2.c
+
+Description: The salvager card is supposed to give the player one buy and trash a card
+from their hand is equal to its cost. But the one buy functionality is missing
+
+Severity: High
+Priority: Medium

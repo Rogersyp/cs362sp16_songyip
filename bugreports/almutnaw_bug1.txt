@@ -1,0 +1,10 @@
+Bug: The great_hall card is played incorrectly
+
+Test to repeat: dominion/cardtest3.c
+
+Description:
+The great_hall card is able to add another card to the hand of the player,
+but fail to give the player the +1 action which it should do
+
+Severity: Medium   The game cannot be played correctly
+Priority: High

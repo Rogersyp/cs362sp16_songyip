@@ -1,0 +1,10 @@
+Bug: The infinite loop in feast card
+
+Test to repeat: random tester for the whole game
+
+Description:If a player is trying to buy one card, once he or she passed the error 
+checks, an infinite loop may occur because the condition for the while loop will
+never change.
+
+Severity: High
+Priority: High
