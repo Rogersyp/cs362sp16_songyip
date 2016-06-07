@@ -1,0 +1,17 @@
+I wrote the tarantula application in Python because Python was very easy for me
+to use string parsing. Getopt and shelve libraries were used becaused I feel
+comfortable with them.
+
+Shelve helps to record the gcov information and picks the top 10 most suspicious
+lines within that gcov.
+
+I spent some time in this project trying to find the problems within this code 
+as I found it quite difficult to debug. I chose the tarantula program as it 
+seemed like the most user friendly to use and easiest to read.
+
+I used this tarantula program to find some faults in a variety of functions in
+dominion including the smithyEffect function and the scoreFor function.
+While I had found faults in these functions tarantula couldn't tell me much more
+than that. So while it is very useful in finding functions with faults I would
+say it isn't that great with finding the underlaying reason. With that being
+said it is very effective in narrowing down the possibilities quickly.
